@@ -18,7 +18,8 @@ void hexdump(
 			{
 				printf("%02x ", data[offset + i]);
 			}
-			else {
+			else 
+			{
 				printf("   ");
 			}
 		}
